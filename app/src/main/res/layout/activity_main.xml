@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_custom"
+    android:id="@+id/relativeLayoutBackGround"
+    android:gravity="center">
+
+
+
+    <ImageButton
+        android:id="@+id/imageButtonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/pause" />
+
+    <ImageButton
+        android:layout_marginBottom="45dp"
+        android:id="@+id/imageButtonShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        app:srcCompat="@drawable/share_custom" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="45dp"
+        android:background="@null"
+        app:srcCompat="@drawable/rate_custom" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="199dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/title" />
+
+    <Button
+        android:id="@+id/buttonTiepTuc"
+        android:textSize="20sp"
+        android:textColor="@drawable/custom_color"
+        android:background="@drawable/button_kich"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:text="@string/tiep_tuc" />
+    <Button
+        android:id="@+id/buttonChoiMoi"
+        android:textSize="20sp"
+        android:textColor="@drawable/custom_color"
+        android:background="@drawable/button_kich"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="280dp"
+        android:text="@string/choi_moi" />
+    <Button
+        android:id="@+id/buttonDiemCao"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/button_kich"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:text="@string/diem_cao" />
+    <ImageButton
+        android:id="@+id/imageButtonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/exit_custom"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+
+</RelativeLayout>

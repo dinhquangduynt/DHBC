@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DHBC</string>
+    <string name="tiep_tuc">Tiếp tục</string>
+    <string name="choi_moi">Chơi mới</string>
+    <string name="diem_cao">Điểm cao</string>
+    <string name="nhac"><b>Nhạc</b></string>
+    <string name="am_kich"><b>Âm kích</b></string>
+    <string name="tieng_anh">Tiếng Anh</string>
+    <string name="tieng_viet">Tiếng Việt</string>
+    <string name="topic"><b>CHỌN CHỦ ĐỀ</b></string>
+    <string name="stt">stt</string>
+    <string name="name">Tên người chơi</string>
+    <string name="diem">Điểm</string>
+    <string name="share">Share cho bạn bè cùng chơi</string>
+    <string name="facebook">Facebook</string>
+    <string name="zalo">Zalo</string>
+</resources>
